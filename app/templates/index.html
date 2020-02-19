@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página inicial</title>
+</head>
+<body>
+    <h1>Listando Eventos</h1>
+    <ul>
+        {% for evento in eventos %}
+            <li>{{ evento }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
